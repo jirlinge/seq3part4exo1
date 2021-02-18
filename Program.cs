@@ -23,7 +23,8 @@ namespace ConsoleApp1
             myArray[6] = "Dimanche";
             Console.WriteLine(myArray[6]);
 
-
+            for (int i = 0; i < myArray.Length; i++) 
+            Console.WriteLine(myArray[i]);
 
 
         }
